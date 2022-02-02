@@ -1,9 +1,10 @@
 import React from "react";
 import * as S from './headerStyles'
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
+import Burger from "../Burger/Burger";
 
 
-const Header = () => (
+const Header = ({openMenu, setOpenMenu}) => (
     <S.headerWrap>
         <div className="nav">
             <img className="logo" src="./images/logo.png" /> 
@@ -30,19 +31,21 @@ const Header = () => (
                 </li>
             </div>
             <div className="social">
-            <a href="jordanpmckinney.com" target="_blank">
-                <AiFillFacebook size="3rem" color="white" />
-            </a>
-            <a href="jordanpmckinney.com" target="_blank">
-                <AiFillInstagram size="3rem" color="white" />
-            </a>
+                <a href="https://www.facebook.com/WeekendLandscapes" target="_blank">
+                    <AiFillFacebook size="3rem" color="white" />
+                </a>
+                <a href="https://www.instagram.com/weekendlandscaping/?hl=en" target="_blank">
+                    <AiFillInstagram size="3rem" color="white" />
+                </a>
+                <Burger openMenu={openMenu} setOpenMenu={setOpenMenu} />
             </div>
-        </div>
-        
+            
 
-        <div className="beauty">
-            <img src="./images/house.jpg" />
         </div>
+       <div className="beauty">
+            <img src="./images/background.jpg" />
+        </div> 
+        
     </S.headerWrap>
 
 )
