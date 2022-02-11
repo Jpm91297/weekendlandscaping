@@ -12,6 +12,7 @@ export const headerWrap = styled.div`
         z-index: 99;
     }
 
+
     .logo {
         grid-area: 1 / 1 / 1 / 1;
         height: 90px;

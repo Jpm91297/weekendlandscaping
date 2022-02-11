@@ -4,6 +4,12 @@ import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 import Burger from "../Burger/Burger";
 
 
+/*
+git add .
+git commit -m "message"
+git push origin main
+*/
+
 const Header = ({openMenu, setOpenMenu}) => (
     <S.headerWrap>
         <div className="nav">
