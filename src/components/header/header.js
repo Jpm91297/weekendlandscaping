@@ -12,6 +12,9 @@ git push origin main
 
 const Header = ({openMenu, setOpenMenu}) => (
     <S.headerWrap>
+        <div className="beauty">
+            <img src="./images/background2.jpg" style={{position: 'absolute', top: '0px', width: '100%'}}/>
+        </div> 
         <div className="nav">
             <img className="logo" src="./images/logo.png" /> 
             <div className="links">
@@ -48,9 +51,7 @@ const Header = ({openMenu, setOpenMenu}) => (
             
 
         </div>
-       <div className="beauty">
-            <img src="./images/background.jpg" />
-        </div> 
+       
         
     </S.headerWrap>
 

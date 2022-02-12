@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const headerWrap = styled.div`
-    
+    font-family: 'Nunito', sans-serif;
 
     .nav {
         display: grid;
@@ -58,9 +58,10 @@ export const headerWrap = styled.div`
 
 
     .beauty img {
-        position: absolute;
         top: 0px;
-        width: 1900px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
         z-index: 1;
         object-fit: cover;
         filter: brightness(50%);

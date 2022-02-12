@@ -2,27 +2,26 @@ import React from "react";
 import { StyledMenu } from "./MenuStyles";
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 import CloseButton from 'react-bootstrap/CloseButton';
-
+import { BsFillTelephoneForwardFill } from 'react-icons/bs';
 
 const Menu = ({ openMenu, setOpenMenu }) => (
     <StyledMenu openMenu = {openMenu}>
         <CloseButton className="btn" variant="white"  onClick={() => setOpenMenu(!openMenu)} />
         <img className="menuLogo" src="./images/logo.png" /> 
-        <h1 style={{color: '#08bf02'}}>
+        <h1>
             Menu
         </h1>
         <div className="social">
-            <a href="/" target="_blank">
-                <AiFillFacebook />
+            <a href="https://www.facebook.com/WeekendLandscapes" target="_blank">
+                <AiFillFacebook size='3rem' />
             </a>
-            <a href="/" target="_blank">
-                <AiFillInstagram />
+            <a href="https://www.instagram.com/weekendlandscaping/?hl=en" target="_blank">
+                <AiFillInstagram size='3rem' />
+            </a>
+            <a href="tel:5138333687" target="_blank">
+                <BsFillTelephoneForwardFill size='2.5rem' />
             </a>
         </div>
-        <a href="#" onClick={() => setOpenMenu(!openMenu)}>
-          <span role="img" aria-label="Experience"></span>
-          513.833.3687
-        </a>
         <a href="#" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Projects"></span>
           Contact us
