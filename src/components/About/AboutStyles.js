@@ -11,9 +11,18 @@ export const AboutWrapper = styled.div`
 
     @media screen and (max-width: 1350px) {
         padding-top: 50px;
+
+       
     }
 
     p {
-        text-align: left;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+
+        @media screen and (max-width: 1350px) {
+            width: 75%;
+            text-align: left;
+        }
     }
 `

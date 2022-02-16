@@ -5,19 +5,35 @@ import Hero from './components/Hero/Hero';
 import Menu from './components/Menu/Menu';
 import About from './components/About/About';
 import ContactMe from './components/ContactMe.js/ContactMe';
+import Services from './components/Services/Services';
+import GallerySection from './components/Gallery/GallerySection';
+import GalleryPage from './components/Gallery/GalleryPage';
+import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import { useState } from 'react';
 
-function App() {
+const Home = () => (
+  <>
+    <Hero />
+    <About />
+    <Services />
+    <GallerySection />
+    <ContactMe />
+  </>
+)
+
+const App = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <>
+    <BrowserRouter>
       <Menu openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <Header openMenu={openMenu} setOpenMenu={setOpenMenu} />
-      <Hero />
-      <About />
-      <ContactMe />
-    </>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/gallery' element={<GalleryPage />} />
+      </Routes>
+     
+    </BrowserRouter>
   );
 }
 

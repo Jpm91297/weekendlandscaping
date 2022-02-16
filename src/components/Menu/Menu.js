@@ -34,7 +34,7 @@ const Menu = ({ openMenu, setOpenMenu }) => (
           <span role="img" aria-label="Technologies"></span>
           Services
           </a>
-        <a href="#" onClick={() => setOpenMenu(!openMenu)}>
+        <a href="/gallery" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="About Me"></span>
           Gallery
           </a>

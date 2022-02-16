@@ -41,7 +41,7 @@ export const StyledMenu = styled.nav`
     h1 {
     text-align: center;
     color: white;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 3.5rem;
     padding-bottom: 20px;
     border-bottom: 2px solid white;
@@ -64,7 +64,7 @@ export const StyledMenu = styled.nav`
   }
   a {
     font-size: 2rem;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Nunito', sans-serif;
     padding: 1rem 0;
     font-weight: bold;
     color: white;

@@ -16,7 +16,10 @@ const Header = ({openMenu, setOpenMenu}) => (
             <img src="./images/background2.jpg" style={{position: 'absolute', top: '0px', width: '100%'}}/>
         </div> 
         <div className="nav">
-            <img className="logo" src="./images/logo.png" /> 
+            <a href="/">
+                <img className="logo" src="./images/logo.png" />
+            </a>
+             
             <div className="links">
                 <li>
                     <a href="tel:5138333687" style ={{textDecoration:"none"}}>
@@ -34,7 +37,7 @@ const Header = ({openMenu, setOpenMenu}) => (
                     </a>  
                 </li>
                 <li>
-                    <a href="#gallery" style ={{textDecoration:"none"}}>
+                    <a href="/gallery" style ={{textDecoration:"none"}}>
                         Gallery
                     </a>  
                 </li>
