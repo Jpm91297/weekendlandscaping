@@ -21,7 +21,7 @@ export const HeroWrapper = styled.div`
         margin: 0 auto;
         width: 25%;
 
-        @media screen and (max-width: 750px) {
+        @media screen and (max-width: 1150px) {
             width: 75%;
         }
     }

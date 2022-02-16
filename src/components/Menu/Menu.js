@@ -7,7 +7,9 @@ import { BsFillTelephoneForwardFill } from 'react-icons/bs';
 const Menu = ({ openMenu, setOpenMenu }) => (
     <StyledMenu openMenu = {openMenu}>
         <CloseButton className="btn" variant="white"  onClick={() => setOpenMenu(!openMenu)} />
-        <img className="menuLogo" src="./images/logo.png" /> 
+        <a href="/">
+            <img className="menuLogo" src="./images/logo.png" /> 
+        </a>
         <h1>
             Menu
         </h1>
@@ -22,15 +24,15 @@ const Menu = ({ openMenu, setOpenMenu }) => (
                 <BsFillTelephoneForwardFill size='2.5rem' />
             </a>
         </div>
-        <a href="#" onClick={() => setOpenMenu(!openMenu)}>
+        <a href="../#contactme" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Projects"></span>
           Contact us
           </a>
-          <a href="#" onClick={() => setOpenMenu(!openMenu)}>
+          <a href="../#about" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Projects"></span>
           About
           </a>
-        <a href="#" onClick={() => setOpenMenu(!openMenu)}>
+        <a href="../#services" onClick={() => setOpenMenu(!openMenu)}>
           <span role="img" aria-label="Technologies"></span>
           Services
           </a>

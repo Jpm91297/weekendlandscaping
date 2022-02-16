@@ -3,7 +3,7 @@ import { AboutWrapper } from "./AboutStyles";
 
 const About = () => (
     <AboutWrapper>
-        <h1>
+        <h1 id="about">
             About Weekend Landscaping
         </h1>
         <p>

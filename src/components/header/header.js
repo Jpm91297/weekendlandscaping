@@ -27,12 +27,12 @@ const Header = ({openMenu, setOpenMenu}) => (
                     </a>
                 </li>
                 <li>
-                    <a href="#about" style ={{textDecoration:"none"}}>
+                    <a href="../#about" style ={{textDecoration:"none"}}>
                         About
                     </a>  
                 </li>
                 <li>
-                    <a href="#services" style ={{textDecoration:"none"}}>
+                    <a href="../#services" style ={{textDecoration:"none"}}>
                         Services
                     </a>  
                 </li>

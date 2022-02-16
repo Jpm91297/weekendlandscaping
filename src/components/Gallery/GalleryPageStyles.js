@@ -11,20 +11,48 @@ export const GalleryPageStyles = styled.div`
     margin-top: 7.5em;
     font-family: 'Nunito', sans-serif;
 
-    h1 {
-        font-size: 4em;
-        margin-bottom: 50px;
+    button {
+        margin-top: 50px;
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+        width: 10rem;
+        height: 5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
     }
 
-    .intro2 {
+    .intro {
         text-align: center;
         margin: 0 auto;
         width: 25%;
 
+        h1 {
+        font-size: 4em;
+        margin-bottom: 50px;
+        }
+       
         @media screen and (max-width: 750px) {
             width: 75%;
         }
     }
+
+    .photo-section {
+        margin-top: 341px;
+        width: 100%;
+        background: #e6e6e6;
+
+        @media screen and (max-width: 1350px) {
+            margin-top: 100px;
+        }
+    }
+
+
+
+
+
+
+
 
 
 `;

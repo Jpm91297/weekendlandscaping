@@ -10,7 +10,10 @@ const Hero = () =>  (
             <h2>
                 This is some more filler text explaining what we do.
             </h2>
-            <button>Let's Talk</button>
+            <a href="#contactme">
+                <button>Let's Talk</button>
+            </a>
+            
             
         </div>
     </S.HeroWrapper>

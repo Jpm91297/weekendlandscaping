@@ -65,12 +65,16 @@ export const headerWrap = styled.div`
         z-index: 1;
         object-fit: cover;
         filter: brightness(50%);
+        
+        @media screen and (max-width:1350px) and (orientation: landscape) {
+            height: 300%;
+        }
 
-        @media screen and (max-width: 1350px) {
+
+        @media screen and (max-width: 450px) {
             width: 100%;
             height: 100vh;
         }
-
     }
 
 
