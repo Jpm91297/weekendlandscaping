@@ -8,6 +8,10 @@ export const ServicesWrapper = styled.div`
     text-align: center;
     padding-top: 50px;
 
+    h1 {
+        font-size: 3em;
+    }
+
     p {
         text-align: center;
         width: 50%;

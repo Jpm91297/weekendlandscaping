@@ -6,8 +6,8 @@ import Menu from './components/Menu/Menu';
 import About from './components/About/About';
 import ContactMe from './components/ContactMe.js/ContactMe';
 import Services from './components/Services/Services';
-import GallerySection from './components/Gallery/GallerySection';
 import GalleryPage from './components/Gallery/GalleryPage';
+import Footer from './components/Footer/Footer';
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -16,8 +16,8 @@ const Home = () => (
     <Hero />
     <About />
     <Services />
-    <GallerySection />
     <ContactMe />
+    
   </>
 )
 
@@ -32,7 +32,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/gallery' element={<GalleryPage />} />
       </Routes>
-     
+      <Footer />
     </BrowserRouter>
   );
 }

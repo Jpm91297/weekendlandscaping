@@ -15,12 +15,12 @@ export const headerWrap = styled.div`
 
     .logo {
         grid-area: 1 / 1 / 1 / 1;
-        height: 90px;
-        width: 420px;
+        height: 89.5px;
+        width: 331px;
 
         @media screen and (max-width: 700px) {
             height: 60px;
-            width: 280px;
+            width: 222px;
         }
     }
 
@@ -62,9 +62,11 @@ export const headerWrap = styled.div`
         left: 0px;
         width: 100%;
         height: 100%;
-        z-index: 1;
         object-fit: cover;
         filter: brightness(50%);
+        z-index: 1;
+        animation: fadeIn ease-in 1;
+        
         
         @media screen and (max-width:1350px) and (orientation: landscape) {
             height: 300%;

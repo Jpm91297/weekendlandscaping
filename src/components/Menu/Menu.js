@@ -8,7 +8,7 @@ const Menu = ({ openMenu, setOpenMenu }) => (
     <StyledMenu openMenu = {openMenu}>
         <CloseButton className="btn" variant="white"  onClick={() => setOpenMenu(!openMenu)} />
         <a href="/">
-            <img className="menuLogo" src="./images/logo.png" /> 
+            <img className="menuLogo" src="./images/logo1.png" /> 
         </a>
         <h1>
             Menu

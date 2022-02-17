@@ -27,9 +27,14 @@ export const AboutWrapper = styled.div`
         padding-top: 50px;
     }
 
+    h1 {
+        font-size: 3em;
+    }
+
     p {
-        text-align: center;
-        width: 75%;
+        padding-top: 1em;
+        text-align: left;
+        width: 40%;
         margin: 0 auto;
 
         @media screen and (max-width: 1350px) {

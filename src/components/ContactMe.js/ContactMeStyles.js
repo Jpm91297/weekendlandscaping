@@ -7,6 +7,7 @@ export const ContactWrap = styled.div`
     flex-direction: column;
     background: #e6e6e6;
     padding-top: 50px;
+    padding-bottom: 1em;
 
     .formContainer {
         display: flex;
