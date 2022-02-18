@@ -19,8 +19,8 @@ export const headerWrap = styled.div`
         width: 331px;
 
         @media screen and (max-width: 700px) {
-            height: 60px;
-            width: 222px;
+            height: 66px;
+            width: 244.2px;
         }
     }
 

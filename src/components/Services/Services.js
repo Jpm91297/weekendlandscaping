@@ -8,6 +8,12 @@ const Services = () => (
             <li>
                 Design / Renovating
             </li>
+            <li>
+                Mulching
+            </li>
+            <li>
+                
+            </li>
         </ul>
     </ServicesWrapper>
 )

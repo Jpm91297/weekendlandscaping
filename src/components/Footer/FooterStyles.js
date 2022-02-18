@@ -10,5 +10,11 @@ export const FooterStyles = styled.div`
             margin: 0 auto;
         }
 
+        div {
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
 
 `
