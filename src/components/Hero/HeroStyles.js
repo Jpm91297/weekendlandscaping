@@ -8,8 +8,12 @@ export const HeroWrapper = styled.div`
     position: relative;
     align-items: center;
     width: 100%;
-    margin-top: 7.5em;
+    padding-top: 7.5em;
     font-family: 'Nunito', sans-serif;
+
+    @media screen and (max-height: 500px) {
+        padding-top: 4em;
+    }
 
     h1 {
         font-size: 4em;

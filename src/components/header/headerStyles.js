@@ -56,7 +56,10 @@ export const headerWrap = styled.div`
         }
     }
 
-
+    .beauty {
+        background: #e6e6e6;
+    }
+   
     .beauty img {
         top: 0px;
         left: 0px;
@@ -65,7 +68,31 @@ export const headerWrap = styled.div`
         object-fit: cover;
         filter: brightness(50%);
         z-index: 1;
-        animation: fadeIn ease-in 1;
+        
+        @media screen and (max-height:775px ) {
+            height: 125%;
+        }
+
+        @media screen and (max-height:615px ) {
+            height: 150%;
+        }
+
+        @media screen and (max-height:515px ) {
+            height: 175%;
+        }
+
+        @media screen and (max-height:430px ) {
+            height: 200%;
+        }
+
+        @media screen and (max-height:376px ) {
+            height: 250%;
+        }
+        
+        @media screen and (max-height:250px ) {
+            height: 300%;
+        }
+        
         
         
         @media screen and (max-width:1350px) {

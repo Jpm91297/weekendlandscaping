@@ -31,8 +31,6 @@ export const StyledMenu = styled.nav`
         justify-content: center;
 
         .btn {
-          margin-top: -210px;
-          margin-bottom: 200px;
           margin-left: 87%;
           font-size: 25px;        
         }
