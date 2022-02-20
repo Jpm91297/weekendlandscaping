@@ -38,7 +38,7 @@ export const GalleryPageStyles = styled.div`
     }
 
     .photo-section {
-        margin-top: 256px;
+        margin-top: 100px;
         width: 100%;
         background: #e6e6e6;
 
