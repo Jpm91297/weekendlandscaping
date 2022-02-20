@@ -18,13 +18,13 @@ export const AboutWrapper = styled.div`
     }
 
     @media screen and (max-width: 750px) {
-        padding-top: 350px;
+        padding-top: 375px;
     }
     @media screen and (max-width: 550px) {
         padding-top: 300px;
     }
     @media screen and (max-width: 450px) {
-        padding-top: 50px;
+        padding-top: 175px;
     }
 
     h1 {

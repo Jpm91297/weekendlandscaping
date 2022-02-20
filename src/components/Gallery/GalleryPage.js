@@ -9,7 +9,7 @@ const GalleryPage = () =>  {
             src: "./images/img2.jpg",
         },
         {
-            src: "./images/img3.jpg",
+            src: "./images/img1.jpg",
         },
         {
             src: "./images/img3.jpg",
@@ -53,17 +53,17 @@ const GalleryPage = () =>  {
         <GalleryPageStyles>
             <div className="intro">
                 <h1>
-                    Check out our Gallery Below!
+                    Check out some of our work below!
                 </h1>
                 <h2>
-                    This is some more filler text explaining what we do.
+                    Our craftmanship speaks for itself!
                 </h2>
                 <a href="/#contactme">
                     <button>Let's Talk</button>
                 </a>            
             </div>
             <div className="photo-section">
-                <ResponsiveGallery images={data} useLightBox={true} />
+                <ResponsiveGallery images={data} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 5, xxl: 5}} />
             </div>
         </GalleryPageStyles>
     )

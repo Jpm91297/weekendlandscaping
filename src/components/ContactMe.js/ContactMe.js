@@ -21,11 +21,11 @@ const ContactMe = () => {
                 <h1 id="contactme">Let's Talk</h1>
                 <h3>Fill out the below form and we will be in touch.</h3>
                 <form className="formContainer" onSubmit={sendEmail}>
-                    <input type='text' placeholder='Name' name="name" />
+                    <input type='text' placeholder='Name' name="name" required />
                     <input type='text' placeholder='Email Address' name="email" />
-                    <input type='text' placeholder='Phone #' name="phone" />
-                    <input type='text' placeholder='Subject' name="subject" />
-                    <textarea type='text' placeholder='Type Your Message' name="message" />
+                    <input type='text' placeholder='Phone #' name="phone"  />
+                    <input type='text' placeholder='Subject' name="subject" required />
+                    <textarea type='text' placeholder='Type Your Message' name="message" required />
                     <input className="submit" type='submit' />
                 </form>
         </ContactWrap>

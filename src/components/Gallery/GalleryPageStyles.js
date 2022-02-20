@@ -29,7 +29,7 @@ export const GalleryPageStyles = styled.div`
 
         h1 {
         font-size: 4em;
-        margin-bottom: 50px;
+        padding-bottom: 50px;
         }
        
         @media screen and (max-width: 750px) {
@@ -38,12 +38,12 @@ export const GalleryPageStyles = styled.div`
     }
 
     .photo-section {
-        margin-top: 341px;
+        margin-top: 256px;
         width: 100%;
         background: #e6e6e6;
 
         @media screen and (max-width: 1350px) {
-            margin-top: 100px;
+            margin-top: 80px;
         }
     }
 

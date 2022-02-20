@@ -68,8 +68,8 @@ export const headerWrap = styled.div`
         animation: fadeIn ease-in 1;
         
         
-        @media screen and (max-width:1350px) and (orientation: landscape) {
-            height: 300%;
+        @media screen and (max-width:1350px) {
+            height: 100%;
         }
 
 

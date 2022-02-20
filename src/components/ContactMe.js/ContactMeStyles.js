@@ -9,6 +9,11 @@ export const ContactWrap = styled.div`
     padding-top: 50px;
     padding-bottom: 1em;
 
+    h1 {
+        font-size: 3em;
+        padding-bottom: .5em;
+    }
+
     .formContainer {
         display: flex;
         flex-direction: column;
@@ -33,8 +38,10 @@ export const ContactWrap = styled.div`
         }
 
         .submit {
+            height: 50px;
             width: 50%;
             margin: 0 auto;
+            font-weight: 900;
         }
 
 

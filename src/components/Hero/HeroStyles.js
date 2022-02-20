@@ -13,7 +13,7 @@ export const HeroWrapper = styled.div`
 
     h1 {
         font-size: 4em;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
     .intro {
@@ -22,7 +22,7 @@ export const HeroWrapper = styled.div`
         width: 25%;
 
         @media screen and (max-width: 1150px) {
-            width: 75%;
+            width: 85%;
         }
     }
 

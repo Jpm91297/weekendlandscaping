@@ -5,16 +5,14 @@ const Hero = () =>  (
     <S.HeroWrapper>
         <div className="intro">
             <h1>
-                This is some really engaging filler text.
+                Beat the spring rush with Weekend Landscaping
             </h1>
             <h2>
-                This is some more filler text explaining what we do.
+                We service Clermont, Butler, and Hamilton Counties in Ohio.
             </h2>
             <a href="#contactme">
                 <button>Let's Talk</button>
             </a>
-            
-            
         </div>
     </S.HeroWrapper>
 

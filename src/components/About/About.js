@@ -7,7 +7,7 @@ const About = () => (
             About Weekend Landscaping
         </h1>
         <p>
-            Weekend Landscaping was founed in 2021 by Alex Weinheimer. He
+            Weekend Landscaping was founded in 2021 by Alex Weinheimer. He
             needed a path to develop his passion for landscape design and build.
         <br />
         <br />
