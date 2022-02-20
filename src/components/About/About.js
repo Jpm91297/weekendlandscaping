@@ -45,7 +45,10 @@ const About = () => (
             Many of our clients are repeat customers. We hope you will be too!
         <br />
         <br />
-            <strong>We hope to earn your business with the way we do business!</strong>   
+            <strong>We hope to earn your business with the way we do business!</strong>
+        <br />
+        <br />
+            <strong>We service Clermont, Butler, and Hamilton Counties in Ohio. </strong>      
         </p>
 
         

@@ -38,10 +38,10 @@ export const ServicesContent = styled.div`
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 60%;
+        justify-content: center; 
 
         li {
-            padding: 5px 0
+            padding: 5px 0;
         }
 
       

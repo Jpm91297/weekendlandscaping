@@ -5,10 +5,10 @@ const Hero = () =>  (
     <S.HeroWrapper>
         <div className="intro">
             <h1>
-                Beat the spring rush with Weekend Landscaping
+                Landscaping With a Clean Modernized Look
             </h1>
             <h2>
-                We service Clermont, Butler, and Hamilton Counties in Ohio.
+                Beat the Spring Rush with Weekend Landscaping
             </h2>
             <a href="#contactme">
                 <button>Let's Talk</button>
