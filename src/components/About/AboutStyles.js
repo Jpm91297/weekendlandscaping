@@ -14,7 +14,7 @@ export const AboutWrapper = styled.div`
     }
 
     @media screen and (max-width: 1150px) {
-        padding-top: 500px;
+        padding-top: 650px;
     }
 
     @media screen and (max-width: 750px) {
@@ -25,6 +25,9 @@ export const AboutWrapper = styled.div`
     }
     @media screen and (max-width: 450px) {
         padding-top: 175px;
+    }
+    @media screen and (max-width: 400px) {
+        padding-top: 350px;
     }
 
     h1 {

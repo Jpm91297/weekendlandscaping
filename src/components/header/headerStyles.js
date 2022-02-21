@@ -104,6 +104,11 @@ export const headerWrap = styled.div`
             width: 100%;
             height: 100vh;
         }
+
+        @media screen and (max-width: 400px) {
+            width: 100%;
+            height: 125%;
+        }
     }
 
 

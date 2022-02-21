@@ -28,6 +28,11 @@ export const HeroWrapper = styled.div`
         @media screen and (max-width: 1150px) {
             width: 85%;
         }
+
+        @media screen and (max-width: 400px) {
+            width: 100%;
+
+        }
     }
 
     button {

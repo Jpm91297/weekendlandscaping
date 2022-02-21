@@ -45,6 +45,10 @@ export const GalleryPageStyles = styled.div`
         @media screen and (max-width: 1350px) {
             margin-top: 80px;
         }
+
+        @media screen and (max-width: 400px) {
+            margin-top: 10px;
+        }
     }
 
 
