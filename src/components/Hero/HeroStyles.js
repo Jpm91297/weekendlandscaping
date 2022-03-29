@@ -8,16 +8,16 @@ export const HeroWrapper = styled.div`
     position: relative;
     align-items: center;
     width: 100%;
-    padding-top: 7.5em;
     font-family: 'Nunito', sans-serif;
 
     @media screen and (max-height: 500px) {
-        padding-top: 4em;
+        
     }
 
     h1 {
         font-size: 4em;
         margin-bottom: 25px;
+        padding-top: 1em;
     }
 
     .intro {
@@ -29,10 +29,15 @@ export const HeroWrapper = styled.div`
             width: 85%;
         }
 
+        @media screen and (max-width: 450px) {
+            background: #201d21;
+            width: 100%;
+        }
+
         @media screen and (max-width: 400px) {
             width: 100%;
             font-size: .75em;
-            padding-top: 200px;
+            padding-top: 100px;
 
         }
     }
@@ -46,6 +51,10 @@ export const HeroWrapper = styled.div`
         height: 5rem;
         font-size: 1.5rem;
         font-weight: 700;
-    }
+
+        @media screen and (max-width: 450px) {
+           margin-bottom: 50px; 
+        }
+}
 
 `;

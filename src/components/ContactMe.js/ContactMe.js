@@ -24,6 +24,7 @@ const ContactMe = () => {
                     <input type='text' placeholder='Name' name="name" required />
                     <input type='text' placeholder='Email Address' name="email" />
                     <input type='text' placeholder='Phone #' name="phone"  />
+                    <input type='text' placeholder='Address' name='address' />
                     <input type='text' placeholder='Subject' name="subject" required />
                     <textarea type='text' placeholder='Type Your Message' name="message" required />
                     <input className="submit" type='submit' />

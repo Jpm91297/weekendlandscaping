@@ -8,7 +8,7 @@ export const GalleryPageStyles = styled.div`
     position: relative;
     align-items: center;
     width: 100%;
-    margin-top: 7.5em;
+    
     font-family: 'Nunito', sans-serif;
 
     button {
@@ -20,6 +20,8 @@ export const GalleryPageStyles = styled.div`
         height: 5rem;
         font-size: 1.5rem;
         font-weight: 700;
+        margin-bottom: 50px;
+
     }
 
     .intro {
@@ -30,10 +32,20 @@ export const GalleryPageStyles = styled.div`
         h1 {
         font-size: 4em;
         padding-bottom: 50px;
+        padding-top: 1em;
         }
        
         @media screen and (max-width: 750px) {
-            width: 75%;
+            width: 100%;
+          
+            font-size: .8em;
+
+            
+
+        }
+
+        @media screen and (max-width: 450px) {
+            background: #201d21;
         }
     }
 
@@ -46,8 +58,8 @@ export const GalleryPageStyles = styled.div`
             margin-top: 80px;
         }
 
-        @media screen and (max-width: 400px) {
-            margin-top: 10px;
+        @media screen and (max-width: 600px) {
+            margin-top: 0px;
         }
     }
 

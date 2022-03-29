@@ -10,6 +10,12 @@ export const headerWrap = styled.div`
         top: 0px;
         width: 100%;
         z-index: 99;
+
+
+        @media screen and (max-width: 450px) {
+            background: #201d21;
+        }
+      
     }
 
 
@@ -103,6 +109,8 @@ export const headerWrap = styled.div`
         @media screen and (max-width: 450px) {
             width: 100%;
             height: 100vh;
+            display: none;
+            
         }
 
         @media screen and (max-width: 400px) {
