@@ -5,7 +5,9 @@ const Hero = () =>  (
     <S.HeroWrapper>
         <div className="intro">
             <h1>
-                Landscaping With a Clean Modernized Look
+                Design <br />
+                Build <br />
+                Maintain
             </h1>
             <h2>
                 Beat the Spring Rush with Weekend Landscaping

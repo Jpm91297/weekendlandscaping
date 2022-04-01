@@ -6,15 +6,15 @@ export const AboutWrapper = styled.div`
     position: relative;
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 400px;
     background: #e6e6e6;
 
     @media screen and (max-width: 1515px) {
-        padding-top: 150px;
+        padding-top: 350px;
     }
 
     @media screen and (max-width: 1350px) {
-        padding-top: 150px;
+        padding-top: 450px;
     }
 
     @media screen and (max-width: 1150px) {
@@ -25,7 +25,7 @@ export const AboutWrapper = styled.div`
         padding-top: 375px;
     }
     @media screen and (max-width: 550px) {
-        padding-top: 300px;
+        padding-top: 390px;
     }
     @media screen and (max-width: 450px) {
         padding-top: 175px;
