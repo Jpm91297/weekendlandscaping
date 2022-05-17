@@ -46,7 +46,16 @@ const GalleryPage = () =>  {
         },
         {
             src: "./images/img14.jpg"
-        }
+        },
+        {
+            src: "./images/img15.jpg"
+        },
+        {
+            src: "./images/img16.jpg"
+        },
+        {
+            src: "./images/img17.jpg"
+        },
     ]
     
     return (

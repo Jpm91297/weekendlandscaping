@@ -8,47 +8,26 @@ const Services = () => (
             <div>
                 <ul>
                     <li>
-                        Design / Renovating
+                        Landscape Design & Installation
                     </li>
                     <li>
-                        Mulching
+                        Rock & Mulch Installation
                     </li>
                     <li>
-                        Rock Installation
-                    </li>
-                    <li>
-                        Lower Branch Removal
-                    </li>
-                    <li>
-                        Landscape Lighting
-                    </li>
-                    <li>
-                        General Bed Maintenance &<br /> Detailing
+                        Retaining Wall & Paver Patios
                     </li>
                 </ul>
             </div>
             <div>
                 <ul>
                     <li>
-                        Spring & Fall Clean-Up
+                        Pond-Less Water Features
                     </li>
                     <li>
-                        Pruning & Hedging
+                        Garden Bed Edging
                     </li>
                     <li>
-                        Leaf Removal
-                    </li>
-                    <li>
-                        Edging
-                    </li>
-                    <li>
-                        Retaining Walls
-                    </li>
-                    <li>
-                        Paver Patios
-                    </li>
-                    <li>
-                        Fertilizing
+                        Spring & Fall Cleanup
                     </li>
                 </ul>
 
