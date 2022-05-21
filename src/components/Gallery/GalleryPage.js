@@ -6,19 +6,19 @@ import ResponsiveGallery from "react-responsive-gallery";
 const GalleryPage = () =>  {
     const data = [
         {
-            src: "./images/img2.jpg",
+            src: "./images/img1.JPG"
         },
         {
-            src: "./images/img1.jpg",
+            src: "./images/img2.JPG"
         },
         {
-            src: "./images/img3.jpg",
+            src: "./images/img3.jpg"
         },
         {
-            src: "./images/img4.jpg",
+            src: "./images/img4.jpg"
         },
         {
-            src: "./images/img5.jpg"
+            src: "./images/img5.JPG"
         },
         {
             src: "./images/img6.jpg"
@@ -33,28 +33,19 @@ const GalleryPage = () =>  {
             src: "./images/img9.jpg"
         },
         {
-            src: "./images/img10.jpg"
+            src: "./images/img10.JPG"
         },
         {
-            src: "./images/img11.jpg"
+            src: "./images/img11.JPG"
         },
         {
-            src: "./images/img12.jpg"
+            src: "./images/img12.JPG"
         },
         {
             src: "./images/img13.jpg"
         },
         {
             src: "./images/img14.jpg"
-        },
-        {
-            src: "./images/img15.jpg"
-        },
-        {
-            src: "./images/img16.jpg"
-        },
-        {
-            src: "./images/img17.jpg"
         },
     ]
     
@@ -72,7 +63,7 @@ const GalleryPage = () =>  {
                 </a>            
             </div>
             <div className="photo-section">
-                <ResponsiveGallery images={data} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 5, xxl: 5}} />
+                <ResponsiveGallery images={data} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 4, xxl: 4}} />
             </div>
         </GalleryPageStyles>
     )
