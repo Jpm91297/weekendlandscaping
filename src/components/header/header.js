@@ -17,7 +17,7 @@ const Header = ({openMenu, setOpenMenu}) => (
         </div> 
         <div className="nav">
             <a href="/">
-                <img className="logo" src="./images/logo1.png" />
+                <img className="logo" src="./images/logo2.png" />
             </a>
              
             <div className="links">

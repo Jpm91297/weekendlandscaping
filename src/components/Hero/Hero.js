@@ -10,7 +10,7 @@ const Hero = () =>  (
                 Maintain
             </h1>
             <h2>
-                Beat the Spring Rush with Weekend Landscaping
+                Scheduling Fall Cleanups for 2022
             </h2>
             <a href="#contactme">
                 <button>Let's Talk</button>

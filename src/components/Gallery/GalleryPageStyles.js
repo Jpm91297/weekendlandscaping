@@ -11,6 +11,14 @@ export const GalleryPageStyles = styled.div`
     
     font-family: 'Nunito', sans-serif;
 
+    span {
+        color: black;
+        border: 1px solid black;
+        padding: 5px;
+        cursor: pointer;
+        
+    }
+
     button {
         margin-top: 50px;
         background: transparent;

@@ -21,12 +21,12 @@ export const headerWrap = styled.div`
 
     .logo {
         grid-area: 1 / 1 / 1 / 1;
-        height: 89.5px;
-        width: 331px;
+        height: 115.5px;
+        width: 330px;
 
         @media screen and (max-width: 700px) {
-            height: 66px;
-            width: 244.2px;
+            height: 86.62px;
+            width: 247.5px;
         }
     }
 

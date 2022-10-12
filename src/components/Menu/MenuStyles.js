@@ -77,8 +77,8 @@ export const StyledMenu = styled.nav`
 
   .menuLogo {
       display: flex;
-      height: 83px;
-      width: 308px;
+      height: 86.62px;
+      width: 247.5px;
       margin: 25px auto 25px auto;
       
       @media screen and (min-width: 750px) {

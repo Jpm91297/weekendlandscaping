@@ -21,9 +21,6 @@ const Services = () => (
             <div>
                 <ul>
                     <li>
-                        Pond-Less Water Features
-                    </li>
-                    <li>
                         Garden Bed Edging
                     </li>
                     <li>

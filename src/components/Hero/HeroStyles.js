@@ -39,6 +39,11 @@ export const HeroWrapper = styled.div`
             font-size: .75em;
             padding-top: 100px;
 
+            h2 {
+                margin: 0 auto;
+                width: 85%
+            }
+
         }
     }
 
@@ -55,6 +60,8 @@ export const HeroWrapper = styled.div`
         @media screen and (max-width: 450px) {
            margin-bottom: 50px; 
         }
+
+       
 }
 
 `;
