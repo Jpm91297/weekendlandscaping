@@ -3,6 +3,10 @@ import * as S from './headerStyles'
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 import Burger from "../Burger/Burger";
 
+import background2 from "../../assets/images/background2.jpg";
+import logo2 from "../../assets/images/logo2.png"
+
+
 
 /*
 git add .
@@ -13,11 +17,11 @@ git push origin main
 const Header = ({openMenu, setOpenMenu}) => (
     <S.headerWrap>
         <div className="beauty">
-            <img src="./images/background2.jpg" style={{position: 'absolute', top: '0px', width: '100%'}}/>
+            <img src={background2} style={{position: 'absolute', top: '0px', width: '100%'}}/>
         </div> 
         <div className="nav">
             <a href="/">
-                <img className="logo" src="./images/logo2.png" />
+                <img className="logo" src={logo2} />
             </a>
              
             <div className="links">

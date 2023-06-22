@@ -1,18 +1,29 @@
 import React from "react";
 import { ContactWrap } from "./ContactMeStyles";
 import emailjs from 'emailjs-com'
+import Swal from 'sweetalert2/dist/sweetalert2.all.js';
+
 
 const ContactMe = () => {
 
     function sendEmail(e) {
         e.preventDefault();
+
         
         emailjs.sendForm('service_g5o1icl', 'template_ijhorez' , e.target , 'user_AtqFI3nvTWlplzNyaEPlg')
             .then((result) => {
                 console.log(result.text);
+                Swal.fire({
+                    title: 'Form submitted successfully!',
+                    icon: 'success',
+                    showConfirmButton: true,
+                    timer: 2000
+                })
             }, (error) => {
                 console.log(error.text)
             });
+        
+
             e.target.reset();
     }
 
