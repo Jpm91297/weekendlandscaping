@@ -3,12 +3,13 @@ import { StyledMenu } from "./MenuStyles";
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai';
 import CloseButton from 'react-bootstrap/CloseButton';
 import { BsFillTelephoneForwardFill } from 'react-icons/bs';
+import logo2 from "../../assets/images/logo2.png"
 
 const Menu = ({ openMenu, setOpenMenu }) => (
     <StyledMenu openMenu = {openMenu}>
         <CloseButton className="btn" variant="white"  onClick={() => setOpenMenu(!openMenu)} />
         <a href="/">
-            <img className="menuLogo" src="./images/logo2.png" /> 
+            <img className="menuLogo" src={logo2} /> 
         </a>
         <h1>
             Menu

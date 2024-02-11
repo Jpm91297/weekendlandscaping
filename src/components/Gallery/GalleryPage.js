@@ -3,177 +3,106 @@ import { GalleryPageStyles } from "./GalleryPageStyles";
 import ResponsiveGallery from "react-responsive-gallery";
 import { useState } from "react";
 
+const GalleryPage = () => {
+  const [showMore, setShowMore] = useState(false);
 
+  const data = [
+    {
+      src: require("../../assets/images/Image1-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image2-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image3-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image4-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image5-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image6-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image7-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image8-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image9-min.jpeg"),
+    },
+  ];
 
-const GalleryPage = () =>  {
+  const data2 = [
+    {
+      src: require("../../assets/images/Image10-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image11-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image12-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image13-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image14-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image15-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image16-min.jpeg"),
+    },
+    {
+      src: require("../../assets/images/Image17-min.jpeg"),
+    },
+  ];
 
-    const [showMore, setShowMore] = useState(false)
-    const [showMore2, setShowMore2] = useState(false)
-    const [showMore3, setShowMore3] = useState(false)
-    
-    const data = [
-        {
-            src: require("../../assets/images/image0.jpg")
-        },
-        {
-            src: "../../assets/images/project1_1.JPG"
-        },
-        {
-            src: "../../assets/images/project1_2.JPG"
-        },
-        {
-            src: "../../assets/images/project1_3.JPG"
-        },
-        {
-            src: "../../assets/images/project2_1.JPG"
-        },
-        {
-            src: "../../assets/images/project2_2.JPG"
-        },
-        {
-            src: "../../assets/images/project3_1.JPG"
-        },
-        {
-            src: "../../assets/images/project3_2.JPG"
-        },
-        {
-            src: "../../assets/images/project3_3.jpg"
-        },
-        {
-            src: "../../assets/images/project4_1.jpg"
-        },
-        {
-            src: "../../assets/images/project4_2.JPG"
-        },
-    ]
+  const [imgArr, setImgArr] = useState(data);
 
-    const data2 = [
-        {
-            src: "../images/project5_1.jpg"
-        },
-        {
-            src: "../images/project5_2.JPG"
-        },
-        {
-            src: "../images/project7_2.JPG"
-        },
-        {
-            src: "../images/project8_1.JPG"
-        },
-        {
-            src: "../images/project9_1.jpg"
-        },
-        {
-            src: "../images/project9_2.jpg"
-        },
-        {
-            src: "../images/project10_1.jpg"
-        },
-        {
-            src: "../images/project11_1.JPG"
-        },
-        {
-            src: "../images/project11_2.JPG"
-        },
-    
-    ]
+  const handleShowMore = () => {
+    setShowMore(true);
+    console.log([...data, data2]);
+    setImgArr([...data, ...data2]);
+  };
 
-    const data3 = [
-        {
-            src: "../images/project11_3.JPG"
-        },
-        {
-            src: "../images/project11_4.JPG"
-        },
-        {
-            src: "../images/project11_5.JPG"
-        },
-        {
-            src: "../images/project11_6.JPG"
-        },
-        {
-            src: "../images/project11_7.JPG"
-        },
-        {
-            src: "../images/project12_4.JPG"
-        },
-        {
-            src: "../images/project13_1.jpg"
-        },
-        {
-            src: "../images/project13_2.jpg"
-        },
-        {
-            src: "../images/project14_1.JPG"
-        },
-        {
-            src: "../images/project14_2.JPG"
-        },
-    ]
-
-    const data4 = [
-        {
-            src: "../images/project15_1.jpg"
-        },
-        {
-            src: "../images/project15_2.jpg"
-        },
-        {
-            src: "../images/project15_3.jpg"
-        },
-        {
-            src: "../images/project16_1.JPG"
-        },
-        {
-            src: "../images/project16_2.jpg"
-        },
-        {
-            src: "../images/project16_3.jpg"
-        },
-    ]
-    
-    return (
-        <GalleryPageStyles>
-            <div className="intro">
-                <h1>
-                    Check out some of our work below!
-                </h1>
-                <h2>
-                    Our craftmanship speaks for itself!
-                </h2>
-                <a href="/#contactme">
-                    <button>Let's Talk</button>
-                </a>            
-            </div>
-            <div className="photo-section">
-                <div>
-                    <ResponsiveGallery images={data} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 4, xxl: 4}} />
-                    
-                </div>
-                <div>
-                    {showMore && <ResponsiveGallery  images={data2} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 4, xxl: 4}} />}
-                </div>
-                {!showMore && <div style={{display: 'flex', justifyContent: 'center', margin: '10px'}}>
-                    <span onClick={(() => setShowMore(true))}>Show more...</span>
-                </div>}
-                <div>
-                    {showMore2 && <ResponsiveGallery  images={data3} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 4, xxl: 4}} />}
-                </div>
-                {!showMore2 && showMore &&  <div style={{display: 'flex', justifyContent: 'center', margin: '10px'}}>
-                    <span onClick={(() => setShowMore2(true))}>Show more...</span>
-                </div>}
-                <div>
-                    {showMore3 && <ResponsiveGallery  images={data4} useLightBox={true} numOfImagesPerRow={{xs: 2,s: 3, m: 3, xl: 4, xxl: 4}} />}
-                </div>
-                {!showMore3 && showMore2 &&  <div style={{display: 'flex', justifyContent: 'center', margin: '10px'}}>
-                    <span onClick={(() => setShowMore3(true))}>Show more...</span>
-                </div>}
-                
-
-            </div>
-        </GalleryPageStyles>
-    )
-}
-
+  return (
+    <GalleryPageStyles>
+      <div className="intro">
+        <h1>Check out some of our work below!</h1>
+        <h2>Our craftmanship speaks for itself!</h2>
+        <a href="/#contactme">
+          <button>Let's Talk</button>
+        </a>
+      </div>
+      <div className="photo-section">
+        <div>
+          <ResponsiveGallery
+            images={imgArr}
+            useLightBox={true}
+            colsPadding={{ xs: 4, s: 4, m: 4, l: 4, xl: 4, xxl: 4 }}
+            numOfImagesPerRow={{ xs: 2, s: 3, m: 3, xl: 4, xxl: 4 }}
+          />
+        </div>
+        {!showMore && (
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              margin: "10px",
+            }}
+          >
+            <span onClick={() => handleShowMore()}>Show more...</span>
+          </div>
+        )}
+      </div>
+    </GalleryPageStyles>
+  );
+};
 
 export default GalleryPage;

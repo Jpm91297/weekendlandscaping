@@ -1,23 +1,22 @@
 import React from "react";
-import * as S from './HeroStyles';
+import * as S from "./HeroStyles";
 
-const Hero = () =>  (
-    <S.HeroWrapper>
-        <div className="intro">
-            <h1>
-                Design <br />
-                Build <br />
-                Maintain
-            </h1>
-            <h2>
-                Prepared <br /> & <br /> Scheduling for <br /> the 2023 Season
-            </h2>
-            <a href="#contactme">
-                <button>Let's Talk</button>
-            </a>
-        </div>
-    </S.HeroWrapper>
-
-)
+const Hero = () => (
+  <S.HeroWrapper>
+    <div className="intro">
+      <h1>
+        Design <br />
+        Build <br />
+        Maintain
+      </h1>
+      <h2>
+        Prepared <br /> & <br /> Scheduling for <br /> the 2024 Season
+      </h2>
+      <a href="#contactme">
+        <button>Let's Talk</button>
+      </a>
+    </div>
+  </S.HeroWrapper>
+);
 
 export default Hero;

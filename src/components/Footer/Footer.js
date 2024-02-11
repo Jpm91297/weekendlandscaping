@@ -2,11 +2,10 @@ import React from "react";
 import { FooterStyles } from "./FooterStyles";
 
 const Footer = () => (
-    <FooterStyles>
-        <div className="divider"></div>
-        <div>Weekend Landscaping Copyright © 2022</div>
-    </FooterStyles>
-
-)
+  <FooterStyles>
+    <div className="divider"></div>
+    <div>Weekend Landscaping Copyright © 2024</div>
+  </FooterStyles>
+);
 
 export default Footer;
